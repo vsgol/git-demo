@@ -1,5 +1,11 @@
 def multuply(a, b):
-	pass
+	return a * b
+
+
+def main():
+	a, b = map(int, input().split())
+	return multuply(a, b)
+
 
 if __name__ == '__main__':
-	assert multiply(3, 5) == 15
+	main()

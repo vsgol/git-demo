@@ -4,7 +4,7 @@ def sum(a: int, b: int) -> int:
 
 def main()
 	a, b = map(int, input().split())
-	print(sum(a, b)
+	print(sum(a, b))
 
 
 if __name__ == '__main__':
